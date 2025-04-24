@@ -35,11 +35,13 @@
 .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
   display: block;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .odometer.odometer-auto-theme .odometer-digit .odometer-value,
 .odometer.odometer-theme-default .odometer-digit .odometer-value {
   display: block;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 .odometer.odometer-auto-theme
   .odometer-digit
@@ -92,11 +94,7 @@
   transform: translateY(0);
 }
 
-.odometer.odometer-auto-theme,
-.odometer.odometer-theme-default {
-  /*  font-family: "Helvetica Neue", sans-serif;*/
-  /*line-height: 1.1em;*/
-}
+/* Removed empty ruleset for .odometer.odometer-auto-theme, .odometer.odometer-theme-default */
 .odometer.odometer-auto-theme .odometer-value,
 .odometer.odometer-theme-default .odometer-value {
   text-align: center;

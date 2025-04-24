@@ -5980,6 +5980,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   /* <-- Apparently some margin are still there even though it's hidden */
 }
 .form .form-element input[type="number"] {
+  appearance: textfield;
   -moz-appearance: textfield;
   /* Firefox */
 }
