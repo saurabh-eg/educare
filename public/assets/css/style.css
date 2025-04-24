@@ -7847,7 +7847,7 @@ label[for="wp-comment-cookies-consent"] {
 .nav-area-wrapper-relative {
   background-color: #19443C;
   min-height: 100px;
-  position:sticky;
+  position:fixed;
   width: 100%;
   top: 0;
   left: 0;
