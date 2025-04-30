@@ -374,9 +374,7 @@
     font-size: 20px;
   }
 
-  .navbar-area.navigation-style-02 .custom-container .logo-wrapper {
-    /* max-width: initial; */
-  }
+  /* Removed empty ruleset for .navbar-area.navigation-style-02 .custom-container .logo-wrapper */
 
   .breadcrumb-wrap.style-01 .breadcrumb-content .title {
     font-size: 40px;
