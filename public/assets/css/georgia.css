@@ -1435,3 +1435,33 @@ h2 {
     object-fit: contain;
   }
 }
+
+.blinking-link {
+  color: #fff;
+  background: linear-gradient(90deg, #ff4e50, #f9d423, #1e90ff, #43e97b, #ff4e50);
+  background-size: 400% 400%;
+  animation: gradientBlink 2s linear infinite, blinkTextColor 1s step-start 0s infinite;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+.blinking-link:hover {
+  transform: scale(1.08);
+  text-decoration: underline;
+}
+@keyframes gradientBlink {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+@keyframes blinkTextColor {
+  0%, 100% { color: #fff; }
+  20% { color: #ff4e50; }
+  40% { color: #f9d423; }
+  60% { color: #1e90ff; }
+  80% { color: #43e97b; }
+}

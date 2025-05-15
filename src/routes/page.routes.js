@@ -49,6 +49,10 @@ router.get('/universities', (req, res) => {
     res.render('university', { user: res.locals.user });
 });
 
+router.get('/georgia-full', (req, res) => {
+    res.render('georgia-full', { user: res.locals.user });
+});
+
 // 404 route
 router.get('*', (req, res) => {
     res.status(404).render('404');
