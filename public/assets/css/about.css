@@ -85,3 +85,25 @@
   }
 
 
+.key-points ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+}
+
+.key-points li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.chose-area-wrapper .section-title-wrapper {
+    margin-bottom: 20px;
+}
+
+.icon-box-with-text-wrap ul {
+    padding: 0;
+    margin: 0;
+}
+
+.single-icon-box-with-text {
+    margin-bottom: 20px;
+}
